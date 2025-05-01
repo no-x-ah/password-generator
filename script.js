@@ -6,7 +6,7 @@ function generatePassword(length) {
     }
     return password;
   }
-  
+  // comment
   document.getElementById('generateBtn').addEventListener('click', () => {
     const length = parseInt(document.getElementById('lengthInput').value, 10);
     if (!length || length <= 0) {
